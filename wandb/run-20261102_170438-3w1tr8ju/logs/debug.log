@@ -1,0 +1,24 @@
+2026-11-02 17:04:38,772 INFO    MainThread:3300266 [wandb_setup.py:_flush():81] Current SDK version is 0.26.1
+2026-11-02 17:04:38,772 INFO    MainThread:3300266 [wandb_setup.py:_flush():81] Configure stats pid to 3300266
+2026-11-02 17:04:38,773 INFO    MainThread:3300266 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-11-02 17:04:38,773 INFO    MainThread:3300266 [wandb_init.py:setup_run_log_directory():723] Logging user logs to /home1/cs23b060/Anvay/Multi-GNN/wandb/run-20261102_170438-3w1tr8ju/logs/debug.log
+2026-11-02 17:04:38,773 INFO    MainThread:3300266 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to /home1/cs23b060/Anvay/Multi-GNN/wandb/run-20261102_170438-3w1tr8ju/logs/debug-internal.log
+2026-11-02 17:04:38,774 INFO    MainThread:3300266 [wandb_init.py:init():850] calling init triggers
+2026-11-02 17:04:38,774 INFO    MainThread:3300266 [wandb_init.py:init():855] wandb.init called with sweep_config: {}
+config: {'epochs': 5, 'batch_size': 1024, 'model': 'gin', 'data': 'data', 'num_neighbors': [100, 100], 'lr': 0.006213266113989207, 'n_hidden': 66.00315515631006, 'n_gnn_layers': 2, 'loss': 'ce', 'optimizer': 'sgd', 'w_ce1': 1.0000182882773443, 'w_ce2': 6.275014431494497, 'dropout': 0.00983468338330501, 'final_dropout': 0.10527690625126304, 'n_heads': None, '_wandb': {}}
+2026-11-02 17:04:38,774 INFO    MainThread:3300266 [wandb_init.py:init():898] starting backend
+2026-11-02 17:04:39,101 INFO    MainThread:3300266 [wandb_init.py:init():913] sending inform_init request
+2026-11-02 17:04:39,744 INFO    MainThread:3300266 [wandb_init.py:init():918] backend started and connected
+2026-11-02 17:04:39,787 INFO    MainThread:3300266 [wandb_init.py:init():988] updated telemetry
+2026-11-02 17:04:39,857 INFO    MainThread:3300266 [wandb_init.py:init():1011] communicating run to backend with 90.0 second timeout
+2026-11-02 17:04:40,475 INFO    MainThread:3300266 [wandb_init.py:init():1056] starting run threads in backend
+2026-11-02 17:04:40,679 INFO    MainThread:3300266 [wandb_run.py:_console_start():2554] atexit reg
+2026-11-02 17:04:40,679 INFO    MainThread:3300266 [wandb_run.py:_redirect():2403] redirect: wrap_raw
+2026-11-02 17:04:40,679 INFO    MainThread:3300266 [wandb_run.py:_redirect():2472] Wrapping output streams.
+2026-11-02 17:04:40,679 INFO    MainThread:3300266 [wandb_run.py:_redirect():2495] Redirects installed.
+2026-11-02 17:04:40,684 INFO    MainThread:3300266 [wandb_init.py:init():1094] run started, returning control to user process
+2026-11-02 17:13:30,730 INFO    MainThread:3300266 [wandb_run.py:_finish():2321] finishing run anvayjoshi5-iit-tirupati/your_proj_name/3w1tr8ju
+2026-11-02 17:13:30,731 INFO    MainThread:3300266 [wandb_run.py:_atexit_cleanup():2520] got exitcode: 0
+2026-11-02 17:13:30,732 INFO    MainThread:3300266 [wandb_run.py:_restore():2502] restore
+2026-11-02 17:13:30,732 INFO    MainThread:3300266 [wandb_run.py:_restore():2508] restore done
+2026-11-02 17:13:33,418 INFO    MainThread:3300266 [wandb_run.py:_footer_sync_info():3889] logging synced files

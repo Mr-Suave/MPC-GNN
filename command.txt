@@ -1,0 +1,9 @@
+nohup env CUDA_VISIBLE_DEVICES=0 
+    python main.py   
+    --data data 
+    --model gin 
+    --batch_size 1024 
+    --tqdm 
+    --tds   
+    --n_epochs 50 
+    --unique_name > test_logs/telemetry_50.log 2>&1 &

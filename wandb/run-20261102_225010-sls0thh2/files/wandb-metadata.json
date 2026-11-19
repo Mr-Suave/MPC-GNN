@@ -1,0 +1,54 @@
+{
+  "os":  "Linux-5.9.0-050900-generic-x86_64-with-glibc2.31",
+  "python":  "CPython 3.9.23",
+  "startedAt":  "2026-11-02T17:20:10.480470Z",
+  "args":  [
+    "--data",
+    "data",
+    "--model",
+    "gin",
+    "--batch_size",
+    "1024",
+    "--ego",
+    "--tqdm",
+    "--tds",
+    "--n_epochs",
+    "5",
+    "--unique_name"
+  ],
+  "program":  "/home1/cs23b060/Anvay/Multi-GNN/main.py",
+  "codePath":  "main.py",
+  "codePathLocal":  "main.py",
+  "git":  {
+    "remote":  "https://github.com/IBM/Multi-GNN.git",
+    "commit":  "252b0252afca109d1d216c411c59ff70753b25fc"
+  },
+  "email":  "anvayjoshi5@gmail.com",
+  "root":  "/home1/cs23b060/Anvay/Multi-GNN",
+  "host":  "loginnode",
+  "executable":  "/home1/cs23b060/miniconda3/envs/multignn/bin/python",
+  "cpu_count":  24,
+  "cpu_count_logical":  32,
+  "gpu":  "NVIDIA GeForce RTX 3050 OEM",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "231689220096",
+      "used":  "189574197248"
+    }
+  },
+  "memory":  {
+    "total":  "67115765760"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 3050 OEM",
+      "memoryTotal":  "8589934592",
+      "cudaCores":  2304,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-c53a88b7-dc35-126d-e963-97fa944cbe94"
+    }
+  ],
+  "cudaVersion":  "12.2",
+  "writerId":  "1l7ypjm8arpbpykb8ageazlc2rpbg7mk"
+}

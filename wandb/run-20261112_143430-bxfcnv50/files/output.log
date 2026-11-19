@@ -1,0 +1,39 @@
+2026-11-12 14:34:35,052 [INFO ] +----------------------------------+-------------------------------------+----------------+----------+
+| Layer                            | Input Shape                         | Output Shape   | #Param   |
+|----------------------------------+-------------------------------------+----------------+----------|
+| GINe                             | [8653, 3], [2, 48416], [48416, 6]   | [48416, 2]     | 33,692   |
+| ├─(node_emb)Linear               | [8653, 3]                           | [8653, 66]     | 264      |
+| ├─(edge_emb)Linear               | [48416, 6]                          | [48416, 66]    | 462      |
+| ├─(convs)ModuleList              | --                                  | --             | 26,532   |
+| │    └─(0)GINEConv               | [8653, 66], [2, 48416], [48416, 66] | [8653, 66]     | 13,266   |
+| │    └─(1)GINEConv               | [8653, 66], [2, 48416], [48416, 66] | [8653, 66]     | 13,266   |
+| ├─(emlps)ModuleList              | --                                  | --             | --       |
+| ├─(zero_norms)ModuleList         | --                                  | --             | --       |
+| │    └─(0)ScheduledZeroRoundNorm | [8653, 66]                          | [8653, 66]     | --       |
+| │    └─(1)ScheduledZeroRoundNorm | [8653, 66]                          | [8653, 66]     | --       |
+| ├─(mlp)Sequential                | [48416, 198]                        | [48416, 2]     | 6,434    |
+| │    └─(0)Linear                 | [48416, 198]                        | [48416, 32]    | 6,368    |
+| │    └─(1)ReLU                   | [48416, 32]                         | [48416, 32]    | --       |
+| │    └─(2)Linear                 | [48416, 32]                         | [48416, 2]     | 66       |
++----------------------------------+-------------------------------------+----------------+----------+
+2026-11-12 14:34:35,055 [INFO ] class_weights = [1.0000182390213013, 6.275014400482178]
+2026-11-12 14:34:35,055 [INFO ] loss=ce optimizer=newton_raphson_adam activation=poly lr=0.006213266113989207
+100%|██████████| 3173/3173 [12:46<00:00,  4.14it/s]
+2026-11-12 14:47:21,593 [INFO ] Epoch 0 | loss 0.076372 | Train F1: 0.0009
+100%|██████████| 943/943 [00:36<00:00, 25.57it/s]
+100%|██████████| 844/844 [00:36<00:00, 22.94it/s]
+2026-11-12 14:48:35,513 [INFO ] Validation F1 (argmax): 0.0000
+2026-11-12 14:48:35,514 [INFO ] Test F1 (argmax): 0.0000
+2026-11-12 14:49:44,714 [INFO ] Validation AUC: 0.6992 | AP: 0.0060
+2026-11-12 14:49:44,714 [INFO ] Validation best threshold -3.5659 -> F1 0.0266
+2026-11-12 14:49:44,714 [INFO ] Test @ val threshold | F1 0.0065 | AUC 0.6600 | AP 0.0035
+Traceback (most recent call last):
+  File "/home1/cs23b060/Anvay/Multi-GNN/main.py", line 41, in <module>
+    main()
+  File "/home1/cs23b060/Anvay/Multi-GNN/main.py", line 34, in main
+    train_gnn(tr_data, val_data, te_data, tr_inds, val_inds, te_inds, args, data_config)
+  File "/home1/cs23b060/Anvay/Multi-GNN/training.py", line 415, in train_gnn
+    model = train_homo(tr_loader, val_loader, te_loader, tr_inds, val_inds, te_inds, model, optimizer, loss_fn, args, config, device, val_data, te_data, data_config)
+  File "/home1/cs23b060/Anvay/Multi-GNN/training.py", line 312, in train_homo
+    f"p5={10**torch.quantile(all_log, 0.05).item():.2e} "
+RuntimeError: quantile() input tensor is too large

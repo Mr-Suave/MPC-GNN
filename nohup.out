@@ -1,0 +1,278 @@
+SHELL=/bin/bash
+COLORTERM=truecolor
+HISTCONTROL=ignoreboth
+TERM_PROGRAM_VERSION=1.145.0
+CONDA_MKL_INTERFACE_LAYER_BACKUP=
+COPILOT_DEBUG_NONCE=bbe6363d84cd73a27f1b9e0eb8a1074d
+CONDA_EXE=/home1/cs23b060/miniconda3/bin/conda
+_CE_M=
+HISTSIZE=1000
+HISTTIMEFORMAT=%F %T	
+XML_CATALOG_FILES=file:///home1/cs23b060/miniconda3/envs/multignn/etc/xml/catalog file:///etc/xml/catalog
+ENV=/usr/share/modules/init/profile.sh
+PWD=/home1/cs23b060/Anvay/Multi-GNN
+GSETTINGS_SCHEMA_DIR=/home1/cs23b060/miniconda3/envs/multignn/share/glib-2.0/schemas
+LOGNAME=cs23b060
+XDG_SESSION_TYPE=tty
+CONDA_PREFIX=/home1/cs23b060/miniconda3/envs/multignn
+MODULESHOME=/usr/share/modules
+MANPATH=:
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+VSCODE_GIT_ASKPASS_NODE=/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/node
+MOTD_SHOWN=pam
+HOME=/home1/cs23b060
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+CONDA_PROMPT_MODIFIER=(multignn) 
+GIT_ASKPASS=/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/extensions/git/dist/askpass.sh
+SSH_CONNECTION=10.212.134.200 59702 10.23.20.36 22
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+_CONDA_EXE=/home1/cs23b060/miniconda3/bin/conda
+LESSCLOSE=/usr/bin/lesspipe %s %s
+MODULEPATH_modshare=/etc/environment-modules/modules:1:/usr/share/modules/$MODULE_VERSION/modulefiles:1:/usr/share/modules/versions:1:/apps/modules/modulefiles:2
+_CONDA_ROOT=/home1/cs23b060/miniconda3
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+_CE_CONDA=
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=cs23b060
+VSCODE_GIT_IPC_HANDLE=/run/user/1631/vscode-git-b5a5afcc8d.sock
+CONDA_SHLVL=2
+LOADEDMODULES=
+SHLVL=2
+BASH_ENV=/usr/share/modules/init/bash
+XDG_SESSION_ID=22951
+CONDA_PYTHON_EXE=/home1/cs23b060/miniconda3/bin/python
+XDG_RUNTIME_DIR=/run/user/1631
+SSH_CLIENT=10.212.134.200 59702 22
+CONDA_DEFAULT_ENV=multignn
+VSCODE_GIT_ASKPASS_MAIN=/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/extensions/git/dist/askpass-main.js
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+BROWSER=/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/bin/helpers/browser.sh
+PATH=/home1/cs23b060/.local/bin:/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/bin/remote-cli:/home1/cs23b060/.local/bin:/home1/cs23b060/.local/bin:/home1/cs23b060/miniconda3/envs/multignn/bin:/home1/cs23b060/miniconda3/condabin:/home1/cs23b060/.local/bin:/home1/cs23b060/.local/bin:/home1/cs23b060/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home1/cs23b060/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/bin/copilot-shim
+MODULEPATH=/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/apps/modules/modulefiles
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1631/bus
+CONDA_PREFIX_1=/home1/cs23b060/miniconda3
+OLDPWD=/home1/cs23b060/.vscode-server
+MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl
+TERM_PROGRAM=vscode
+MKL_INTERFACE_LAYER=LP64,GNU
+VSCODE_IPC_HOOK_CLI=/run/user/1631/vscode-ipc-862a066a-09a8-43ae-b7a2-671a1855e6cc.sock
+BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/lib/x86_64-linux-gnu/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/lib/x86_64-linux-gnu/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+BASH_FUNC_module%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre}/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+_=/usr/bin/nohup
+CUDA_VISIBLE_DEVICES=0
+SHELL=/bin/bash
+COLORTERM=truecolor
+HISTCONTROL=ignoreboth
+TERM_PROGRAM_VERSION=1.145.0
+CONDA_MKL_INTERFACE_LAYER_BACKUP=
+COPILOT_DEBUG_NONCE=bbe6363d84cd73a27f1b9e0eb8a1074d
+CONDA_EXE=/home1/cs23b060/miniconda3/bin/conda
+_CE_M=
+HISTSIZE=1000
+HISTTIMEFORMAT=%F %T	
+XML_CATALOG_FILES=file:///home1/cs23b060/miniconda3/envs/multignn/etc/xml/catalog file:///etc/xml/catalog
+ENV=/usr/share/modules/init/profile.sh
+PWD=/home1/cs23b060/Anvay/Multi-GNN
+GSETTINGS_SCHEMA_DIR=/home1/cs23b060/miniconda3/envs/multignn/share/glib-2.0/schemas
+LOGNAME=cs23b060
+XDG_SESSION_TYPE=tty
+CONDA_PREFIX=/home1/cs23b060/miniconda3/envs/multignn
+MODULESHOME=/usr/share/modules
+MANPATH=:
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+VSCODE_GIT_ASKPASS_NODE=/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/node
+MOTD_SHOWN=pam
+HOME=/home1/cs23b060
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+CONDA_PROMPT_MODIFIER=(multignn) 
+GIT_ASKPASS=/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/extensions/git/dist/askpass.sh
+SSH_CONNECTION=10.212.134.200 59702 10.23.20.36 22
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+_CONDA_EXE=/home1/cs23b060/miniconda3/bin/conda
+LESSCLOSE=/usr/bin/lesspipe %s %s
+MODULEPATH_modshare=/etc/environment-modules/modules:1:/usr/share/modules/$MODULE_VERSION/modulefiles:1:/usr/share/modules/versions:1:/apps/modules/modulefiles:2
+_CONDA_ROOT=/home1/cs23b060/miniconda3
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+_CE_CONDA=
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=cs23b060
+VSCODE_GIT_IPC_HANDLE=/run/user/1631/vscode-git-b5a5afcc8d.sock
+CONDA_SHLVL=2
+LOADEDMODULES=
+SHLVL=2
+BASH_ENV=/usr/share/modules/init/bash
+XDG_SESSION_ID=22951
+CONDA_PYTHON_EXE=/home1/cs23b060/miniconda3/bin/python
+XDG_RUNTIME_DIR=/run/user/1631
+SSH_CLIENT=10.212.134.200 59702 22
+CONDA_DEFAULT_ENV=multignn
+VSCODE_GIT_ASKPASS_MAIN=/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/extensions/git/dist/askpass-main.js
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+BROWSER=/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/bin/helpers/browser.sh
+PATH=/home1/cs23b060/.local/bin:/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/bin/remote-cli:/home1/cs23b060/.local/bin:/home1/cs23b060/.local/bin:/home1/cs23b060/miniconda3/envs/multignn/bin:/home1/cs23b060/miniconda3/condabin:/home1/cs23b060/.local/bin:/home1/cs23b060/.local/bin:/home1/cs23b060/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home1/cs23b060/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home1/cs23b060/.vscode-server/cli/servers/Stable-a717861c07586a53d83b80d742cd3f59b20a6273/server/bin/copilot-shim
+MODULEPATH=/etc/environment-modules/modules:/usr/share/modules/versions:/usr/share/modules/$MODULE_VERSION/modulefiles:/apps/modules/modulefiles
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1631/bus
+CONDA_PREFIX_1=/home1/cs23b060/miniconda3
+OLDPWD=/home1/cs23b060/.vscode-server
+MODULES_CMD=/usr/lib/x86_64-linux-gnu/modulecmd.tcl
+TERM_PROGRAM=vscode
+MKL_INTERFACE_LAYER=LP64,GNU
+VSCODE_IPC_HOOK_CLI=/run/user/1631/vscode-ipc-862a066a-09a8-43ae-b7a2-671a1855e6cc.sock
+BASH_FUNC_switchml%%=() {  typeset swfound=1;
+ if [ "${MODULES_USE_COMPAT_VERSION:-0}" = '1' ]; then
+ typeset swname='main';
+ if [ -e /usr/lib/x86_64-linux-gnu/modulecmd.tcl ]; then
+ typeset swfound=0;
+ unset MODULES_USE_COMPAT_VERSION;
+ fi;
+ else
+ typeset swname='compatibility';
+ if [ -e /usr/lib/x86_64-linux-gnu/modulecmd-compat ]; then
+ typeset swfound=0;
+ MODULES_USE_COMPAT_VERSION=1;
+ export MODULES_USE_COMPAT_VERSION;
+ fi;
+ fi;
+ if [ $swfound -eq 0 ]; then
+ echo "Switching to Modules $swname version";
+ source /usr/share/modules/init/bash;
+ else
+ echo "Cannot switch to Modules $swname version, command not found";
+ return 1;
+ fi
+}
+BASH_FUNC_module%%=() {  unset _mlshdbg;
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ case "$-" in 
+ *v*x*)
+ set +vx;
+ _mlshdbg='vx'
+ ;;
+ *v*)
+ set +v;
+ _mlshdbg='v'
+ ;;
+ *x*)
+ set +x;
+ _mlshdbg='x'
+ ;;
+ *)
+ _mlshdbg=''
+ ;;
+ esac;
+ fi;
+ unset _mlre _mlIFS;
+ if [ -n "${IFS+x}" ]; then
+ _mlIFS=$IFS;
+ fi;
+ IFS=' ';
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ do
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ fi;
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ fi;
+ done;
+ if [ -n "${_mlre:-}" ]; then
+ eval `eval ${_mlre}/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash '"$@"'`;
+ else
+ eval `/usr/bin/tclsh8.6 /usr/lib/x86_64-linux-gnu/modulecmd.tcl bash "$@"`;
+ fi;
+ _mlstatus=$?;
+ if [ -n "${_mlIFS+x}" ]; then
+ IFS=$_mlIFS;
+ else
+ unset IFS;
+ fi;
+ unset _mlre _mlv _mlrv _mlIFS;
+ if [ -n "${_mlshdbg:-}" ]; then
+ set -$_mlshdbg;
+ fi;
+ unset _mlshdbg;
+ return $_mlstatus
+}
+_=/usr/bin/nohup
+CUDA_VISIBLE_DEVICES=0

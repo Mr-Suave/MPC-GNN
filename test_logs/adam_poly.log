@@ -1,0 +1,16 @@
+nohup: ignoring input
+2026-11-03 01:54:31,933 [INFO ] Random seed set as 1
+2026-11-03 01:54:31,933 [INFO ] Retrieving data
+2026-11-03 01:54:36,239 [INFO ] Available Edge Features: ['EdgeID', 'from_id', 'to_id', 'Timestamp', 'Amount Sent', 'Sent Currency', 'Amount Received', 'Received Currency', 'Payment Format', 'Is Laundering']
+2026-11-03 01:54:49,945 [INFO ] Illicit ratio = 5177 / 5078345 = 0.10%
+2026-11-03 01:54:49,945 [INFO ] Number of nodes (holdings doing transcations) = 515088
+2026-11-03 01:54:49,945 [INFO ] Number of transactions = 5078345
+2026-11-03 01:54:49,947 [INFO ] Edge features being used: ['Timestamp', 'Amount Received', 'Received Currency', 'Payment Format']
+2026-11-03 01:54:49,947 [INFO ] Node features being used: ['net_flow', 'amount_std', 'dwell_time']
+2026-11-03 01:54:49,947 [INFO ] Clip after normalization: +/-10.0
+2026-11-03 01:54:50,000 [INFO ] number of days and transactions in the data: 18 days, 5078345 transactions
+2026-11-03 01:54:50,022 [INFO ] Calculate split: [[0, 1, 2, 3, 4, 5], [6, 7], [8, 9, 10, 11, 12, 13, 14, 15, 16, 17]]
+2026-11-03 01:54:50,026 [INFO ] Total train samples: 63.98% || IR: 0.08% || Train days: [0, 1, 2, 3, 4]
+2026-11-03 01:54:50,027 [INFO ] Total val samples: 19.01% || IR: 0.11% || Val days: [6, 7]
+2026-11-03 01:54:50,027 [INFO ] Total test samples: 17.01% || IR: 0.19% || Test days: [8, 9, 10, 11, 12]
+2026-11-03 01:54:56,051 [INFO ] Start: adding time-deltas

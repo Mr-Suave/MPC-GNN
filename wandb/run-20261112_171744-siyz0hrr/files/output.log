@@ -1,0 +1,37 @@
+2026-11-12 17:17:48,017 [INFO ] +----------------------------------+-------------------------------------+----------------+----------+
+| Layer                            | Input Shape                         | Output Shape   | #Param   |
+|----------------------------------+-------------------------------------+----------------+----------|
+| GINe                             | [8653, 3], [2, 48416], [48416, 6]   | [48416, 2]     | 33,692   |
+| ├─(node_emb)Linear               | [8653, 3]                           | [8653, 66]     | 264      |
+| ├─(edge_emb)Linear               | [48416, 6]                          | [48416, 66]    | 462      |
+| ├─(convs)ModuleList              | --                                  | --             | 26,532   |
+| │    └─(0)GINEConv               | [8653, 66], [2, 48416], [48416, 66] | [8653, 66]     | 13,266   |
+| │    └─(1)GINEConv               | [8653, 66], [2, 48416], [48416, 66] | [8653, 66]     | 13,266   |
+| ├─(emlps)ModuleList              | --                                  | --             | --       |
+| ├─(zero_norms)ModuleList         | --                                  | --             | --       |
+| │    └─(0)ScheduledZeroRoundNorm | [8653, 66]                          | [8653, 66]     | --       |
+| │    └─(1)ScheduledZeroRoundNorm | [8653, 66]                          | [8653, 66]     | --       |
+| ├─(mlp)Sequential                | [48416, 198]                        | [48416, 2]     | 6,434    |
+| │    └─(0)Linear                 | [48416, 198]                        | [48416, 32]    | 6,368    |
+| │    └─(1)ReLU                   | [48416, 32]                         | [48416, 32]    | --       |
+| │    └─(2)Linear                 | [48416, 32]                         | [48416, 2]     | 66       |
++----------------------------------+-------------------------------------+----------------+----------+
+2026-11-12 17:17:48,018 [INFO ] class_weights = [1.0000182390213013, 6.275014400482178]
+2026-11-12 17:17:48,019 [INFO ] loss=ce optimizer=newton_raphson_adam activation=poly lr=0.006213266113989207
+  0%|          | 0/3173 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/home1/cs23b060/Anvay/Multi-GNN/main.py", line 41, in <module>
+    main()
+  File "/home1/cs23b060/Anvay/Multi-GNN/main.py", line 34, in main
+    train_gnn(tr_data, val_data, te_data, tr_inds, val_inds, te_inds, args, data_config)
+  File "/home1/cs23b060/Anvay/Multi-GNN/training.py", line 412, in train_gnn
+    model = train_homo(tr_loader, val_loader, te_loader, tr_inds, val_inds, te_inds, model, optimizer, loss_fn, args, config, device, val_data, te_data, data_config)
+  File "/home1/cs23b060/Anvay/Multi-GNN/training.py", line 263, in train_homo
+    optimizer.step()
+  File "/home1/cs23b060/miniconda3/envs/multignn/lib/python3.9/site-packages/torch/optim/optimizer.py", line 391, in wrapper
+    out = func(*args, **kwargs)
+  File "/home1/cs23b060/miniconda3/envs/multignn/lib/python3.9/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+  File "/home1/cs23b060/Anvay/Multi-GNN/training.py", line 66, in step
+    if hasattr(optimizer, "_stats") and optimizer._stats["log10_samples"]:
+NameError: name 'optimizer' is not defined

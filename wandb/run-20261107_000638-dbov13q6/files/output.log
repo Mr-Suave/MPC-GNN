@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/home1/cs23b060/Anvay/Multi-GNN/main.py", line 41, in <module>
+    main()
+  File "/home1/cs23b060/Anvay/Multi-GNN/main.py", line 34, in main
+    train_gnn(tr_data, val_data, te_data, tr_inds, val_inds, te_inds, args, data_config)
+  File "/home1/cs23b060/Anvay/Multi-GNN/training.py", line 323, in train_gnn
+    model = get_model(sample_batch, config, args)
+  File "/home1/cs23b060/Anvay/Multi-GNN/training.py", line 253, in get_model
+    return GINe(
+  File "/home1/cs23b060/Anvay/Multi-GNN/models.py", line 80, in __init__
+    self.zero_norms.append(ZeroRoundNorm(self.n_hidden))
+NameError: name 'ZeroRoundNorm' is not defined
